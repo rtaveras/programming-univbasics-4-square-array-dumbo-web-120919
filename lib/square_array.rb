@@ -4,8 +4,8 @@ def square_array (array)
   
   while array[count] do
   new_array.push(array[count])
+  return new_array
   count += 1
-  return 
   end
 end
 
